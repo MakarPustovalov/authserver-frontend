@@ -1,0 +1,18 @@
+#alert{
+  transition: all ease 250ms;
+  z-index: 999;
+  display: none;
+  justify-content: flex-end;
+  position: fixed;
+  top: 20px;
+  left: 20%;
+  right: 20%;
+  max-width: 90%;
+  opacity: 0;
+
+  div{
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+}
